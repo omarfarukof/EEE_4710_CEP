@@ -1,3 +1,6 @@
 # ASM
 *.asm~
 *.ASM~
+
+# Proteus Backup
+"proteus/Project Backups/"
