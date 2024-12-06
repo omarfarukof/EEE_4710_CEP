@@ -1,6 +1,12 @@
 # ASM
 *.asm~
 *.ASM~
+*.HEX~
+*.hex~
+*.LST
+*.LST~
+*.lst
+*.lst~
 
 # Proteus Backup
 "proteus/Project Backups/"
