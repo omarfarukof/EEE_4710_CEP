@@ -53,10 +53,7 @@ LCD_ENC_PRINT:  ;
     LEP_AGAIN:
                 CLR A ;set A=0 (match found)
                 MOVC A, @A+DPTR ;get ASCII code from table
-                JZ LEP_END
-                PUSH 03H
-                MOV 03H, A
-                
+                JZ LEP_END                
                 ADD A, ENCRYPT_KEY
     ENC_END:    LCALL LCD_WRITE_DATA
                 INC DPTR
